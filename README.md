@@ -12,10 +12,18 @@ In this repo we will find the html of the worldofpuppies
 
 - **index.html**     the main hml file for the website
 - **screenshot.png** the desired output
-- **img/**           the images used on the website
 - **css/**           the folder where our css lives
+- **img/**           the images used on the website
 
-##Running the embedded webserver
+
+##Running the BrowserSync
+
+Browser sync is a development webserver
+that will monitor changes in your files
+and automatically refresh your web browser
+for you.
+
+To set it up follow this steps
 
 1. Install Node from https://nodejs.org/
 2. Install Git  from https://git-scm.com/
@@ -25,11 +33,11 @@ In this repo we will find the html of the worldofpuppies
 	**Windows**
 	Windows users will have to run this commands
 	on the git bash terminal
-
+	
 	**MacOs**
 	MacOs users will have to run this commands
 	on the Terminal.app
-
+	
 	1. Create a folder for the repository
 		```bash
 		mkdir ~/worldofpuppies
@@ -41,7 +49,7 @@ In this repo we will find the html of the worldofpuppies
 		```bash
 		git clone https://github.com/YOURUSERNAME/worldofpuppies ~/worldofpuppies
 		```
-
+		
 5. Install BrowserSync
 
 	```bash
@@ -52,3 +60,14 @@ In this repo we will find the html of the worldofpuppies
 	```bash
 	browser-sync start --server --files='**/*.*'
 	``` 		
+	
+	
+
+
+
+
+
+
+
+
+
