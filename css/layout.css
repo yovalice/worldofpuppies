@@ -1,0 +1,9 @@
+/* CSS Reset */
+*{
+  box-sizing: border-box;
+}
+
+/* Typography */
+body{
+  font-family: 'Montserrat', sans-serif;
+}
