@@ -1,0 +1,25 @@
+.table{
+  width: 100%;
+}
+thead{
+  border: 3px solid #8E101C;
+  background-color: #8E101C;
+  color: white
+}
+thead th{
+  text-align: left;
+  font-size: 15px;
+  padding: 5px;
+}
+tbody td{
+  color: #666666;
+  font-size: 13px;
+  border-top: 1px solid #D4D4D4;
+  padding: 5px 0px 3px 5px;
+}
+tbody img{
+  width: 70px;
+  border: 1px solid #C1C1C1;
+  padding: 2px;
+  border-radius: 3px;
+}

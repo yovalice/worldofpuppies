@@ -1,0 +1,33 @@
+#header{
+  background-color: #293037;
+  padding:          15px;
+  padding-bottom:   10px;
+  position:         fixed;
+  top:              0;
+  width:            100%;
+}
+#header > img{
+  width:        50px;
+  float:        left;
+  margin-right: 18px;
+}
+#header > .brand{
+  color:      white;
+  float:      left;
+  margin:     0;
+}
+#header > nav{
+  text-align: right;
+}
+#header nav a{
+  display: inline-block;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+}
+#header nav a.active{
+  background: #14549F;
+}
+#header nav a:hover{
+  background-color: #4D9CEE;
+}

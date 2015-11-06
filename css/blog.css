@@ -1,0 +1,48 @@
+#blog{
+  overflow: auto;
+}
+.blog-row > .blog-col-left{
+  float: left;
+  width: 65%;
+  padding-right: 5em;
+}
+.blog-row > .blog-col-right{
+  float: left;
+  width: 35%;
+  padding-right: 3em;
+}
+#blog time{
+  display: block;
+  font-weight: bold;
+  color: #666666;
+  font-size: 0.9em;
+}
+#blog ul.blog-list time{
+  font-size: 0.7em;
+}
+#blog .blog-content{
+  font-size: 13px;
+  line-height: 1.5;
+  color: #666666;
+}
+#blog header a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-bottom: .8em;
+  font-weight: bold;
+  font-size: 25px;
+}
+#blog ul.blog-list{
+  list-style-type: none;
+  margin:  0;
+  padding: 0;
+}
+#blog ul.blog-list li{
+  border-bottom: 1px solid #efefef;
+  padding: 10px 0;
+}
+#blog ul.blog-list header a{
+  margin-bottom: .5em;
+  font-size: 18px;
+}
